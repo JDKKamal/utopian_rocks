@@ -1,0 +1,46 @@
+name: utopian_rocks
+description: A flutter application for the utopian.rocks website.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http:
+  cupertino_icons: ^0.1.2
+  rxdart:
+  timeago:
+  url_launcher:
+  connectivity:
+  package_info:
+  intl:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: any
+
+flutter_icons:
+  android: true
+  ios: 'Example-Icon'
+  image_path: 'icon/icon.png'
+  image_path_android: 'icon/icon.png'
+  image_path_ios: 'icon/icon.png'
+  adaptive_icon_background: '#FFFAFAFA'
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/utopy.png
+    - assets/images/utopian-icon.png
+
+  fonts:
+    - family: Utopicons
+      fonts:
+        - asset: assets/fonts/utopicons.ttf
+    - family: Lato-Regular
+      fonts:
+        - asset: assets/fonts/Lato-Regular.ttf
